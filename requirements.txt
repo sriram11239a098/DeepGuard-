@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────────────────────
+# DeepGuard / Sach-AI — requirements.txt
+# Python 3.11+  |  Windows 11  |  NVIDIA GPU  |  CUDA 12.1
+#
+# STEP 1: Install PyTorch with CUDA 12.1 FIRST (before this file):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# STEP 2: Then install remaining dependencies:
+#   pip install -r requirements.txt
+#
+# OR use the one-shot installer:
+#   python install.py
+# ─────────────────────────────────────────────────────────────
+
+# ── Core DL (installed separately — see STEP 1 above) ────────
+# torch>=2.5.1+cu121
+# torchvision>=0.20.1+cu121
+# torchaudio>=2.5.1+cu121
+
+# ── Computer vision ───────────────────────────────────────────
+opencv-python>=4.9.0.80
+
+# ── Augmentation (pinned for JpegCompression API compatibility)
+albumentations>=1.4.0
+
+# ── Audio processing ──────────────────────────────────────────
+librosa>=0.10.2
+soundfile>=0.12.1
+
+# ── Scientific computing ──────────────────────────────────────
+numpy>=1.26.4
+scipy>=1.13.0
+
+# ── Data handling ─────────────────────────────────────────────
+pandas>=2.2.2
+
+# ── Visualisation ─────────────────────────────────────────────
+matplotlib>=3.9.0
+seaborn>=0.13.2
+Pillow>=10.0.0
+
+# ── Web UI ────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── REST API ──────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# ── Utilities ─────────────────────────────────────────────────
+tqdm>=4.66.4
+requests>=2.32.3

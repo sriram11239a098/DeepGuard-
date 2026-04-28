@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Project Specific
+checkpoints/
+logs/
+outputs/
+bin/
+scratch/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large weights or downloads
+*.pth
+*.whl
+*.zip
+*.tar.gz
