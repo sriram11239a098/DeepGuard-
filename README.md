@@ -54,5 +54,5 @@ The model was trained on a balanced dataset of real and manipulated media.
 This project was developed as part of a forensic AI research initiative focused on identifying generative adversarial network (GAN) artifacts and neural speech synthesis anomalies. The multimodal approach significantly reduces the False Acceptance Rate (FAR) compared to unimodal detection systems.
 
 ---
-**Author:** [Your Name]  
+**Author:** V Sriram Charan & VKS Karthik   
 **System Requirements:** Python 3.11+, NVIDIA CUDA 12.1+ (Recommended)
